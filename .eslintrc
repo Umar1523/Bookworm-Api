@@ -12,10 +12,9 @@
     "browser": true,
     "node": true
   },
-  "rules": {
-  
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
-    
+  "rules": {  
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "no-underscore-dangle": [1, { "allow": [ "_id" ]}]
   }
-     
+
 }
